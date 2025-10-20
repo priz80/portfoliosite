@@ -9,10 +9,8 @@ body {
 }
 
 .conteiner {
-  /* border: 1px solid red; */
   max-width: 945px;
   margin: auto;
-  /* padding-top: 50px; */
 }
 
 .hero {
