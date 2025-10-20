@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Игорь - фрилансер, веб разработчик</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap&subset=cyrillic;"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="css\style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap&subset=cyrillic;"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
     <header class="hero">
@@ -14,34 +17,178 @@
         <div class="hero-header">
           <img src="img\logo.svg" alt="Glo Academy" class="logo" />
           <div class="social-links">
-            <a href="https://github.com/priz80" class="social-links"
+            <a href="https://github.com/priz80" class="social-link"
               ><img src="img\social\github.svg" alt="github"
             /></a>
-            <a href="https://github.com/priz80" class="social-links"
+            <a href="https://github.com/priz80" class="social-link"
               ><img src="img\social\twitter.svg" alt="twitter"
             /></a>
-            <a href="https://github.com/priz80" class="social-links"
+            <a href="https://github.com/priz80" class="social-link"
               ><img src="img\social\instagram.svg" alt="instagram"
             /></a>
-            <a href="https://github.com/priz80" class="social-links"
+            <a href="https://github.com/priz80" class="social-link"
               ><img src="img\social\facebook.svg" alt="facebook"
             /></a>
           </div>
         </div>
         <div class="hero-content">
           <div class="hero-text">
-            <span class="hero-subtitle">Фрилансер</span>
-            <h1 class="hero-title">Игорь</h1>
-            <p class="hero-description">
+            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
+            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Игорь</h1>
+            <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">
               Разрабатываю сайты для малого и среднего бизнеса. У меня можно
               заказать дизайн и верстку небольшого сайта или интернет-магазина
             </p>
-            <button class="button hero-button">Бесплатная консультация</button>
+            <button class="button hero-button wow fadeInRight" data-wow-delay="0.8s">Бесплатная консультация</button>
           </div>
-          <div class="hero-avatar"></div>
+          <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
         </div>
       </div>
-      
     </header>
+    <main>
+      <section class="features section">
+        <div class="conteiner">
+          <h2 class="section-title">Со мной удобно работать</h2>
+          <div class="features-block">
+            <div class="features-item">
+              <img
+                src="img/features/offer-img.svg"
+                alt="По договору"
+                class="features-image"
+              />
+              <h3 class="features-title">По договору</h3>
+              <p class="features-text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/deadline-img.svg"
+                alt="Точно в срок"
+                class="features-image"
+              />
+              <h3 class="features-title">Точно в срок</h3>
+              <p class="features-text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/agreement-img.svg"
+                alt="Ценник под вас"
+                class="features-image"
+              />
+              <h3 class="features-title">Ценник под вас</h3>
+              <p class="features-text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/steps-img.svg"
+                alt="Премежуточные итоги"
+                class="features-image"
+              />
+              <h3 class="features-title">Премежуточные итоги</h3>
+              <p class="features-text">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/storage-img.svg"
+                alt="Хостинг и домен"
+                class="features-image"
+              />
+              <h3 class="features-title">Хостинг и домен</h3>
+              <p class="features-text">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/conversation-img.svg"
+                alt="Не брошу после сдачи"
+                class="features-image"
+              />
+              <h3 class="features-title">Не брошу после сдачи</h3>
+              <p class="features-text">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer slot="section">
+      <div class="conteiner">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="contact-block">
+          <form action="" class="contacts-form">
+            <h4 class="form-title">
+              Можете просто оставить заявку, я позвоню вам сегодня
+            </h4>
+            <input
+              type="text"
+              class="input input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input-phone"
+              placeholder="Ваше телефон"
+            />
+            <button class="button form-button">Бесплатная консультация</button>
+          </form>
+
+          <div class="contacts-text">
+            <div class="contacts-data">
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="tel:+79898200103" class="contacts-link">+7 989 820-01-03</a>
+              </div>
+              <!-- /.contacts-phone -->
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="mailto:priz8090@gmail.com" class="contacts-link">priz8090@gmail.com</a>
+              </div>
+              <!-- /.contacts-mail -->
+              <div class="contacts-social">
+                <h4 class="contacts-title">Соцсети</h4>
+                <a href="#" class="contacts-link">t.me/</a>
+                <a href="#" class="contacts-link">vk.com/</a>
+                <a href="#" class="contacts-link">fb.com/</a>
+              </div>
+              <!-- /.contacts-social -->
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/priz80" class="social-link"
+                ><img src="img\social\github.svg" alt="github"
+              /></a>
+              <a href="https://github.com/priz80" class="social-link"
+                ><img src="img\social\twitter.svg" alt="twitter"
+              /></a>
+              <a href="https://github.com/priz80" class="social-link"
+                ><img src="img\social\instagram.svg" alt="instagram"
+              /></a>
+              <a href="https://github.com/priz80" class="social-link"
+                ><img src="img\social\facebook.svg" alt="facebook"
+            /></a>
+          </div>
+          <a href="#" class="contacts-policy">Политика конфедициальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
