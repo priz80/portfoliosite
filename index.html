@@ -9,7 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/animate.css" />
   </head>
   <body>
     <header class="hero">
@@ -33,20 +34,29 @@
         </div>
         <div class="hero-content">
           <div class="hero-text">
-            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
-            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Игорь</h1>
+            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s"
+              >Фрилансер</span
+            >
+            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">
+              Игорь
+            </h1>
             <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">
               Разрабатываю сайты для малого и среднего бизнеса. У меня можно
               заказать дизайн и верстку небольшого сайта или интернет-магазина
             </p>
-            <button class="button hero-button wow fadeInRight" data-wow-delay="0.8s">Бесплатная консультация</button>
+            <button
+              class="button hero-button wow fadeInRight"
+              data-wow-delay="0.8s"
+            >
+              Бесплатная консультация
+            </button>
           </div>
           <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
         </div>
       </div>
     </header>
     <main>
-      <section class="features section">
+      <section class="section features">
         <div class="conteiner">
           <h2 class="section-title">Со мной удобно работать</h2>
           <div class="features-block">
@@ -125,6 +135,64 @@
           </div>
         </div>
       </section>
+      <section class="section projects">
+        <div class="conteiner">
+          <h2 class="section-title">Последние проекты</h2>
+
+            <div class="swiper projects-slider">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide projects-slide">  
+                  <img src="img/project-img.png" alt="Сайт строительной фирмы “Велстрой”"/>
+                            <div class="project-text">
+                              <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                              <div class="project-time">
+                                <img src="img/time-icon.svg" alt="Срок" class="project-icon"/>
+                                <div class="project-description">
+                                  <h4 class="project-subtitle">Срок</h4>
+                                  <p class="project-paragraf">4 рабочих дня</p>
+                                </div>
+                              </div>
+                              <div class="project-cost">
+                                <img src="img/cost-icon.svg" alt="Срок" class="project-icon"/>
+                                <div class="project-description">
+                                  <h4 class="project-subtitle">Цена</h4>
+                                  <p class="project-paragraf">14 000 рублей</p>
+                                </div>
+                              </div>
+                              <div class="project-feedback">
+                                <img src="img/feedback-icon.svg" alt="Срок" class="project-icon"/>
+                                <div class="project-description">
+                                  <h4 class="project-subtitle">Отзыв клиента</h4>
+                                  <p class="project-paragraf">
+                                    Мне понравилось работать с Игорем, потому что он все
+                                    время был на связи и предлагал свои решения, когда мы
+                                    заходили в тупик с дизайном. Мне нужны были закрывающие
+                                    документы для бухгалтерии, и Игорь — тот редкий фрилансер,
+                                    у которого с документами все в порядке.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> -->
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+           
+        </div>
+      </section>
     </main>
 
     <footer class="section">
@@ -152,12 +220,16 @@
             <div class="contacts-data">
               <div class="contacts-phone">
                 <h4 class="contacts-title">Телефон</h4>
-                <a href="tel:+79898200103" class="contacts-link">+7 989 820-01-03</a>
+                <a href="tel:+79898200103" class="contacts-link"
+                  >+7 989 820-01-03</a
+                >
               </div>
               <!-- /.contacts-phone -->
               <div class="contacts-mail">
-                <h4 class="contacts-title">Телефон</h4>
-                <a href="mailto:priz8090@gmail.com" class="contacts-link">priz8090@gmail.com</a>
+                <h4 class="contacts-title">Почта</h4>
+                <a href="mailto:priz8090@gmail.com" class="contacts-link"
+                  >priz8090@gmail.com</a
+                >
               </div>
               <!-- /.contacts-mail -->
               <div class="contacts-social">
@@ -180,15 +252,16 @@
               /></a>
               <a href="https://github.com/priz80" class="social-link"
                 ><img src="img\social\facebook.svg" alt="facebook"
-            /></a>
-          </div>
-          <a href="#" class="contacts-policy">Политика конфедициальности</a>
+              /></a>
+            </div>
+            <a href="#" class="contacts-policy">Политика конфедициальности</a>
           </div>
         </div>
       </div>
     </footer>
 
     <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
