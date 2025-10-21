@@ -15,7 +15,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.conteiner {
+.container {
   width: 90%;
   max-width: 945px;
   margin: auto;
@@ -433,7 +433,6 @@ body {
   }
   .contacts-form {
     padding: 40px 19px;
-    align-items: center;
   }
   .form-title {
     font-size: 15px;
