@@ -433,6 +433,7 @@ body {
   }
   .contacts-form {
     padding: 40px 19px;
+    align-items: center;
   }
   .form-title {
     font-size: 15px;
