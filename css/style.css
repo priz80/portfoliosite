@@ -86,8 +86,8 @@ body {
   cursor: pointer;
 }
 
-.hero-button {
-}
+/* .hero-button {
+} */
 
 .hero-avatar {
   width: 389px;
@@ -155,9 +155,9 @@ body {
   justify-content: space-between;
 }
 
-.projects-slider {
+/* .projects-slider {
   
-}
+} */
 
 
 .project-text {
@@ -204,6 +204,7 @@ body {
 .project-icon {
   margin-right: 16px;
 }
+
 
 /* contacts */
 .contacts-form {
