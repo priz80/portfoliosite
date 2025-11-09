@@ -230,6 +230,11 @@ body {
 }
 
 /* contacts */
+
+.contacty {
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
 .contacts-form {
   background: #fff;
   box-shadow: -5px 5px 0px 0px rgba(255, 196, 29, 1);
@@ -281,10 +286,10 @@ body {
 }
 
 .policy {
-      font-size: 11px;
-    line-height: 18px;
-    text-decoration-line: underline;
-    color: #a5a5a5;
+  font-size: 11px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #a5a5a5;
 }
 
 .contact-block {
