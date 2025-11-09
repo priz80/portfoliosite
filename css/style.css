@@ -344,6 +344,18 @@ body {
   color: #a5a5a5;
 }
 
+.footer {
+  text-align: center;
+  background-color: #000;
+  padding-bottom: 34px;
+}
+.footer a {
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #a5a5a5;
+}
+
 /* responsive */
 
 @media (max-width: 1100px) {
