@@ -262,23 +262,39 @@
       <div class="container">
         <h2 class="section-title wow flipInX" id="contact">Свяжитесь со мной</h2>
         <div class="contact-block">
-          <form action="/submit" class="contacts-form wow fadeInLeft" id="form">
+
+          <form action="https://formsubmit.co/priz8090@gmail.com" class="contacts-form wow fadeInLeft" id="form" method="post" autocomplete="on">
             <h4 class="form-title">
               Можете просто оставить заявку, я позвоню вам сегодня
             </h4>
             <input
               type="text"
+              name="name"
               class="input input-name"
               placeholder="Ваше имя"
             />
             <input
-              type="text"
+              type="tel"
+              name="phone"
               class="input input-phone"
               placeholder="Ваше телефон"
+              required
             />
             <button form="form" class="button form-button" type="submit">Бесплатная консультация</button>
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              required
+            />
+            <label for="checkbox" class="policy">Согласен с политикой конфедициальности</label>
+            <input
+                      type="hidden"
+                      name="_subject"
+                      value="Новое сообщение с сайта Portfolio!"
+                    />
           </form>
-
+          
           <div class="contacts-text wow fadeInRight">
             <div class="contacts-data">
               <div class="contacts-phone">
@@ -298,8 +314,8 @@
               <div class="contacts-social">
                 <h4 class="contacts-title">Соцсети</h4>
                 <a href="https://t.me/Studio_WWW" class="contacts-link" target="_blank">Telegram</a>
-                <a href="https://t.me/Studio_WWW" class="contacts-link" target="_blank">vk.com/</a>
-                <a href="https://t.me/Studio_WWW" class="contacts-link" target="_blank">fb.com/</a>
+                <a href="https://max.ru/u/f9LHodD0cOKZlgkObAS8iDLBwtoIrtr9rQB1kyfyxPNWkHFShKu0Leg5zME" class="contacts-link" target="_blank">max</a>
+                <a href="https://vk.com/ichernenko75" class="contacts-link" target="_blank">vk.com/</a>
               </div>
               <!-- /.contacts-social -->
             </div>
