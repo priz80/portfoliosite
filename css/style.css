@@ -15,6 +15,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.logo {
+  width: 50px;
+}
+
 .container {
   width: 90%;
   max-width: 945px;
