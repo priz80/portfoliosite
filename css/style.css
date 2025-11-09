@@ -277,6 +277,14 @@ body {
 
 .form-button {
   width: 100%;
+  margin-bottom: 17px;
+}
+
+.policy {
+      font-size: 11px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #a5a5a5;
 }
 
 .contact-block {
