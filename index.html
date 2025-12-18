@@ -9,14 +9,17 @@
       content="Я специалист по верстке не больших сайтов и интернет-магазинов."
     />
     <title>Игорь - фрилансер, веб разработчик</title>
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:400,700&display=swap&subset=cyrillic;"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
-    /> -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <header class="hero">
@@ -32,6 +35,7 @@
               target="_blank"
               ><img src="img/social/github.svg" alt="github"
             /></a>
+
             <!-- <a
               href="https://github.com/priz80"
               class="social-link"
@@ -64,8 +68,10 @@
               Игорь
             </h1>
             <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">
-              Разрабатываю сайты для малого и среднего бизнеса. У меня можно
-              заказать дизайн и верстку небольшого сайта или интернет-магазина
+              Разрабатываю сайты для бизнеса. У меня можно заказать верстку
+              небольшого сайта(страница визитка, лендинг, сайт компании) или
+              полноценного интернет-магазина. Предлагаю множество вариантов
+              готовых дизайнов или делаю индивидуальный дизайн проект.
             </p>
             <a href="#contact">
               <button
@@ -94,8 +100,7 @@
               />
               <h3 class="features-title">По договору</h3>
               <p class="features-text">
-                Предоставлю все документы для бухгалтерии: договоры, счета и
-                акты. Работаю как ИП без НДС.
+                Работаю как самозанятый. Заключаю договор, предоставляю чек.
               </p>
             </div>
             <div class="features-item">
@@ -106,8 +111,7 @@
               />
               <h3 class="features-title">Точно в срок</h3>
               <p class="features-text">
-                В договоре прописана моя ответственность за срок проекта. Если
-                просрочу — плачу неустойку.
+                Соблюдаю договоренности о дедлайнах каждого этапа.
               </p>
             </div>
             <div class="features-item">
@@ -142,8 +146,8 @@
               />
               <h3 class="features-title">Хостинг и домен</h3>
               <p class="features-text">
-                Если мы договорились о цене проекта, в неё входит всё: домен и
-                хостинг на год + SSL сертификат.
+                Помогу подобрать доменное имя, зарегистрировать на Вас,
+                настроить на сайт.
               </p>
             </div>
             <div class="features-item">
@@ -154,8 +158,8 @@
               />
               <h3 class="features-title">Не брошу после сдачи</h3>
               <p class="features-text">
-                Научу вас или вашего сотрудника пользоваться сайтом, запишу
-                видео-инструкции.
+                Устраню недочеты и внесу правки в готовый проект по Вашему
+                запросу.
               </p>
             </div>
           </div>
@@ -333,7 +337,6 @@
             Свяжитесь со мной
           </h2>
           <div class="contact-block">
-            <!-- action="https://formsubmit.co/priz8090@gmail.com" -->
             <form
               action="./send.php"
               class="contacts-form wow fadeInLeft"
@@ -342,19 +345,19 @@
               autocomplete="on"
             >
               <h4 class="form-title">
-                Можете просто оставить заявку, я позвоню вам сегодня
+                Отправьте контакты и я свяжусь с Вами сегодня!
               </h4>
               <input
                 type="text"
                 name="name"
                 class="input input-name"
-                placeholder="Ваше имя"
+                placeholder="имя(по желанию)"
               />
               <input
                 type="tel"
                 name="phone"
                 class="input input-phone"
-                placeholder="Ваше телефон"
+                placeholder="телефон*"
                 required
               />
               <button form="form" class="button form-button" type="submit">
@@ -371,9 +374,6 @@
               />
             </form>
 
-
-
-
             <div class="contacts-text wow fadeInRight">
               <div class="contacts-data">
                 <div class="contacts-phone">
@@ -386,12 +386,12 @@
                 <div class="contacts-mail">
                   <h4 class="contacts-title">Почта</h4>
                   <a href="mailto:adminwww@gmail.com" class="contacts-link"
-                    >adminwww@gmail.com</a
+                    >priz8090@gmail.com</a
                   >
                 </div>
                 <!-- /.contacts-mail -->
                 <div class="contacts-social">
-                  <h4 class="contacts-title">Соцсети</h4>
+                  <h4 class="contacts-title">Пердпочтительный способ связи</h4>
                   <a
                     href="https://t.me/Studio_WWW"
                     class="contacts-link"
@@ -402,25 +402,25 @@
                     href="https://max.ru/u/f9LHodD0cOKZlgkObAS8iDLBwtoIrtr9rQB1kyfyxPNWkHFShKu0Leg5zME"
                     class="contacts-link"
                     target="_blank"
-                    >max</a
+                    >Max</a
                   >
-                  <a
+                  <!-- <a
                     href="https://vk.com/ichernenko75"
                     class="contacts-link"
                     target="_blank"
                     >vk.com/</a
-                  >
+                  > -->
                 </div>
                 <!-- /.contacts-social -->
               </div>
-              <div class="social-links">
+              <!-- <div class="social-links">
                 <a
                   href="https://github.com/priz80"
                   class="social-link"
                   target="_blank"
                   ><img src="img\social\github.svg" alt="github"
                 /></a>
-                <!-- <a
+                <a
                   href="https://github.com/priz80"
                   class="social-link"
                   target="_blank"
@@ -437,8 +437,8 @@
                   class="social-link"
                   target="_blank"
                   ><img src="img\social\facebook.svg" alt="facebook"
-                /></a> -->
-              </div>
+                /></a>
+              </div> -->
               <!-- <a href="#" class="contacts-policy">Политика конфедициальности</a> -->
             </div>
           </div>
@@ -446,8 +446,12 @@
       </section>
     </main>
     <footer class="footer">
-      <div><a href="#" target="_blank">© 2019–2025, WEB Studio - Разработка сайтов для предприятий</a></div>
-      <div><a href="https://fastvps.ru" target="_blank">Сайт работает на быстром VPS/VDS хостинге от FASTVPS</a></div>
+      <div><a href="#" target="_blank">© 2019–2025 Разработка сайтов</a></div>
+      <div>
+        <a href="https://fastvps.ru" target="_blank"
+          >Сайт работает на быстром VPS/VDS хостинге от FASTVPS</a
+        >
+      </div>
     </footer>
     <script src="js/wow.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
