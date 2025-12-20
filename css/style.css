@@ -16,6 +16,16 @@ body {
   
 }
 
+h1 {
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+}
+
+h2 {
+  color: rgb(226, 226, 226);
+   text-shadow: 0 0 10px rgba(255, 187, 1, 0.92);
+}
+
 .logo {
   width: 50px;
 }
